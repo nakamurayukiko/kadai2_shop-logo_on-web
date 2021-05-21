@@ -1,0 +1,339 @@
+@media  screen and (max-width: 768px) {
+  
+  .contents {
+    width: 100%;
+  }
+
+  header {   
+    width: 100%;
+    height: auto;  
+    margin: 0;
+    padding: 30px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h1:hover {
+    border-bottom: none;
+    opacity: 0.7;
+  }
+
+  .header-right {
+    font-size: 25px;
+  }
+
+  .header-right:hover {
+    opacity: 0.7;
+  }
+
+  .first-wrapper {
+    background-image: url(../img/firstimge.png);
+
+    height: auto;
+    padding:50px 20px;
+    width: 100%;
+
+    text-align: left;
+    
+    
+  }
+
+
+  .first-wrapper h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    
+  }
+
+  .first-wrapper p {
+    
+    font-size: 14px;
+  }
+
+  /* second-wrapper */
+  .second-wrapper {
+    background-image: url(../img/sp-greeting.jpg);
+    height: auto;
+    width: 100%;
+    padding:50px 20px;
+    
+    
+  }
+
+  .second-wrapper h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+
+  }
+
+  .second-wrapper p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+
+
+  /* third-wrapper */
+  .third-wrapper {
+    background-image: url(../img/sp-banner.jpg);
+    height: auto;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0;
+  }
+
+  .first-row, .second-row {
+    width: 100%;
+    display:block;
+    margin: 0;
+  }
+
+  section {
+    padding-bottom: 50px;
+  }
+
+  .end {
+    padding-bottom: 0;
+  }
+
+  section img {
+   
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  section p {
+    height: auto;
+    margin: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: left;
+
+  }
+
+  .red-btn {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    
+  }
+
+
+  .red-btn img {
+    width: 18px;
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+  }
+
+  .red-btn p {
+   
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  /* fourth-wrapper */
+
+  .fourth-wrapper {
+    height: auto;
+    display: block;
+    margin: 0; 
+    padding: 50px 20px;
+  }
+
+  .fourth-left {
+    width: 100%;
+    
+    padding: 0;
+   
+  }
+
+  .fourth-left a h1{
+    display: block;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  table {
+    margin-top: 20px;
+    white-space: nomal;
+    
+  }
+
+  th { 
+    border-right: 1px solid #48bac2;
+    color: #010c21;
+    padding-right: 18px;
+    padding-bottom: 10px;
+  }
+
+  td, th {
+    font-size: 14px;
+   
+  }
+
+  td {
+    
+    padding-left: 20px;
+    padding-bottom: 0px;
+    
+  }
+
+  .fourth-right {
+    display: none;
+  }
+
+
+  /* footer */
+
+  footer{
+    background-image: url(../img/sp-footer.jpg);
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 30px 0 0 0;
+    
+  }
+
+  .footer-txt {
+    padding: 0;
+  }
+
+  .map {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    
+    }
+    .gmap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    }
+
+  .footer-text-wrapper {
+   
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  footer a h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .address {
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  .phone {
+    padding-bottom: 0px;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right:0 auto 0 10px;
+    display: inline-block;
+    text-align: right;
+
+    
+  }
+
+  .phone img {
+    width: 25px;
+    height: auto;
+  }
+
+  .access {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+    line-height: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .access img {
+    padding: 0;
+    padding-right: 9px;
+  }
+
+  .menu ul {
+    width: 100%;
+    display: block;
+    margin: 0;
+    text-align: center;
+    background: #fff5fe;
+    
+
+  }
+
+  .menu  a{
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #706f6f;
+    color: #706f6f;
+  }
+
+  .menu a:hover {
+    background: #706f6f;
+    color: #fff5fe;
+  }
+
+  .menu li+ li {
+    border-left: none;
+  }
+
+  .copy-write {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+}
+
+
